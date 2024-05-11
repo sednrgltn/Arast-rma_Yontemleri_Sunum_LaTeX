@@ -1,2 +1,2 @@
 # Arastırma_Yontemleri_Sunum
- Makale Sunum
+LaTex kullanımı ile makale sunumu.
