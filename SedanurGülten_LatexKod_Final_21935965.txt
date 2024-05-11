@@ -1,0 +1,200 @@
+21935965_SedanurGülten_FinalÖdevi
+
+\documentclass[10pt]{beamer}
+\usepackage[utf8]{inputenc}
+
+
+\usepackage{multirow,rotating}
+\usepackage{color}
+\usepackage{hyperref}
+\usepackage{tikz-cd}
+\usepackage{array}
+\usepackage{siunitx}
+\usepackage{mathtools,nccmath}%
+\usepackage{etoolbox, xparse} 
+\usetheme{CambridgeUS}
+\usecolortheme{dolphin}
+
+% set colors
+\definecolor{myNewColorA}{RGB}{158, 27,50}
+\definecolor{myNewColorB}{RGB}{158, 27,50}
+\definecolor{myNewColorC}{RGB}{130,138,143} % {130,138,143}
+\setbeamercolor*{palette primary}{bg=myNewColorC}
+\setbeamercolor*{palette secondary}{bg=myNewColorB, fg = white}
+\setbeamercolor*{palette tertiary}{bg=myNewColorA, fg = white}
+\setbeamercolor*{titlelike}{fg=myNewColorA}
+\setbeamercolor*{title}{bg=myNewColorA, fg = white}
+\setbeamercolor*{item}{fg=myNewColorA}
+\setbeamercolor*{caption name}{fg=myNewColorA}
+\usefonttheme{professionalfonts}
+\usepackage{natbib}
+\usepackage{hyperref}
+
+%------------------------------------------------------------
+% \titlegraphic{\includegraphics[height=0.75cm]{hü logo.png}} 
+
+% logo of my university
+% \titlegraphic{\includegraphics[height=0.75cm]{ua_eng_logo.png}} 
+
+% logo of my university
+\begin{figure}
+  \includegraphics[width=0.08\textwidth]{hü_logo.png}
+  \label{fig:resim}
+\end{figure}
+
+\setbeamerfont{title}{size=\large
+İST-480 ARAŞTIRMA YÖNTEMLERİ\\
+Makale Rapor Ödevi }
+\setbeamerfont{subtitle}{size=\small}
+\setbeamerfont{author}{size=\small}
+\setbeamerfont{date}{size=\footnotesize}
+\setbeamerfont{institute}{size=\footnotesize}
+\title[]{}%title
+%\subtitle{ }%%subtitle
+\author[]{Sedanur Gülten-21935965}%%authors
+\institute[]{HACETTEPE ÜNİVERSİTESİ}
+\date[\textcolor{white}{2023}]
+{Haziran 2023}
+
+
+
+
+
+%------------------------------------------------------------
+%This block of commands puts the table of contents at the 
+%beginning of each section and highlights the current section:
+%\AtBeginSection[]
+%{
+%  \begin{frame}
+%    \frametitle{İ}
+%    \tableofcontents[currentsection]
+%  \end{frame}
+%}
+
+
+% ------Contents below------
+%------------------------------------------------------------
+
+\begin{document}
+%The next statement creates the title page.
+\frame{\titlepage}
+\begin{frame}
+\frametitle{İÇERİK}
+\tableofcontents
+\end{frame}
+
+
+%------------------------------------------------------------
+\section{Makalenin Yayınlandığı Dergi Hakında Genel Bilgiler}
+\begin{frame}{Makalenin Yayınlandığı Dergi Hakında Genel Bilgiler}
+\textcolor{myNewColorA}{\textbf{Dergi Adı:}} REVSTAT
+STATISTICAL JOURNAL\\
+\textcolor{myNewColorA}{\textbf{Dergi İndeksi:}} SCIE \\
+\textcolor{myNewColorA}{\textbf{Dergi Hakkında::}} REVSTAT, istatistik ile ilgili makaleler yayınlayan, hakemli, açık erişimli bilimsel bir dergidir. ISSN 1645-6726 ile Portekiz ulusal istatistik ofisi Instituto Nacional de Estatística tarafından İngilizce olarak yayınlanmaktadır. Dergi, 2003 yılında Revista de Estatística dergisinin yerini aldığında kuruldu. Hem basılı (abonelikli) hem de çevrimiçi olarak açık erişim olarak her yıl iki sayı yayınlar.\\
+\textcolor{myNewColorA}{\textbf{Derginin erişim linki:}}
+https://revstat.ine.pt/index.php/REVSTAT/article/view/266/549
+
+\end{frame}
+
+\section{Makale İncelemesi}
+\begin{frame}{Makale Hakkında Genel Bilgiler}
+\textcolor{myNewColorA}{\textbf{Makale Adı:}} Sayısal Değişkene Dayalı İkili Sınıflandırma İçin Doğruluk Ölçüleri \\
+\textcolor{myNewColorA}{\textbf{Yazarlar:}} Rui Santos, Miguel Felgueiras, Joao Paulo, Martins, Liliana Ferreina\\
+\textcolor{myNewColorA}{\textbf{Makale Dili:}} İngilizce\\
+\textcolor{myNewColorA}{\textbf{Makalenin Konusu:}} Gözlenen bir kantitatif değişkene dayalı ikili sınıflandırma yapmak için doğru metodolojinin belirlenmesi İçin Doğruluk Ölçüleri \\
+\textcolor{myNewColorA}{\textbf{Makalenin Amacı:}} Amaç, gözlenen kantitatif(nicel) değişken Yi'nin değerine dayanarak ikili bir sınıflandırma (örneğin, sağlıklı versus enfekte) elde etmek, için bir teşhis testi gerçekleştirmektir. Gözlenen bir kantitatif değişkene dayalı ikili sınıflandırma yapmak için doğru metodolojinin belirlenmesi genellikle karmaşık bir seçimdir. Bu nedenle, uygun doğruluk ölçümlerinin kullanımı hayati öneme sahiptir. Örneğin kantitatif bir değişkene dayalı ikili sınıflandırma prosedürlerini uygulayan birçok kişi tarafından pAUC hala bilinmemektedir. Bu çalışmanın temel amacı ise ikili sınıflandırma için yaygın olarak kullanılan doğruluk ölçümlerini karşılaştırarak en uygun olanını belirlemektir ve daha önce [1, 2] sunulan çalışmaları tamamlamaktır. \\
+
+\end{frame}
+
+
+\section{Makale İncelemesi}
+\begin{frame}{Makale Hakkında Genel Bilgiler}
+\textcolor{myNewColorA}{\textbf{Makalenin Önemi:}} Yapılan çalışmalarda  tamamına yakın bir kısmında testler yanlış negatif veya yanlış pozitif sonuçlar nedeniyle hatalı sınıflandırmaya yol açabilir. Bu nedenle, uygulanan ikili sınıflandırma prosedürünün performansını değerlendirmek önemlidir. Performansı değerlendirmek için en yaygın kullanılan ölçüm, Alıcı İşletim Karakteristik (ROC) eğrisinin altındaki alan (AUC)'dır Klinik çalışmalarda çalışmaların önemi açısından  ikili sınıflandırrma durumunda performans değerlendirmesi yapılır.
+\end{frame}
+
+
+\section{Makale Metodolojisi}
+
+
+\begin{frame}{Örnekleme Planı}
+
+\textcolor{myNewColorA}{\textbf{Örneklem:}}Test tasarımı için, enfekte ve sağlıklı bireylerin eşit sayıda kullanıldığı farklı örneklem büyüklükleri kullanılmıştır, yani n0 = n1 = n ∈ {50, 100, 250, 500, 1000}. n0 = n1 kısıtı, duyarlılık tahmininde (yalnızca enfekte bireyler analiz edilir) ve özgüllükte (yalnızca sağlıklı bireyler kullanılır) aynı doğruluğun elde edilmesini amaçlar.
+\\
+\textcolor{myNewColorA}{\textbf{Uygulanan Materyaller  ve Yöntemler:}}
+Bu çalışmada ikili sınıfa sahip kantatif (nicel) değere göre ana doğruluk ölçüleri gösterilmiş ve  farklı senaryolarda bu ölçüleri karşılaştırmak için bir simülasyon çalışmaları yapılmıştır. Tüm sonuçlar, farklı dağılımlar ve çeşitli örneklem büyüklükleri kullanılarak R yazılım programı  tarafından hesaplanmıştır.
+\\
+\end{frame}
+
+\begin{frame}{Örnekleme Planı}
+\textcolor{myNewColorA}{\textbf{Deneysel Süreç:}}
+ikili sınıflandırma için yaygın olarak kullanılan doğruluk ölçümlerini karşılaştırarak en uygun olanını belirlemek ve daha önce [1, 2] sunulan çalışmaları tamamlamak için aşağıdaki metodlar ve ölçüm yöntemleri kullanılmıştır.\\
+Tüm senaryolar 103 replika kullanılarak analiz edildi ve aşağıdaki doğruluk ölçüleri hesaplandı:\\
+AUC - ROC eğrisinin tamamı altındaki alan;\\
+SP90, SP75, SP50 - Sırasıyla [0.9, 1], [0.75, 1] ve [0.5, 1] özgüllük aralığında hesaplanan spAUC φ phi (veya Phi) - phi-φindeksi; \\
+• SPφ (veya SPPhi) - [phi - 0.05, min{phi + 0.05, 1}] özgüllük aralığında hesaplanan spAUC;\\ 
+• SEφ (veya SEPhi) - [phi - 0.05, min{phi + 0.05, 1}] duyarlılık aralığında hesaplanan spAUC; \\
+\end{frame}
+
+\begin{frame}{Örnekleme Planı}
+• YI - maksimum Youden indeksi; \\
+• DI - D, ideal noktaya (0, 1) olan mesafeyi gösteren D'nin 1-D maksimumu;\\ 
+• CP - uyum olasılığının maksimumu.\\
+Bu ölçümlerde elde edilen sonuçları karşılaştırmak için Spearman sıralama korelasyon katsayısı, n = 1000 için (üst üçgen matris) ve n = 50 için (alt üçgen matris) olarak hesaplanmıştır.\\
+Aralarındaki monoton ilişkileri değerlendirmek için ve sonuçlardan daha iyi çıkarımlar yapmak için;\\
+• Normal  µ0 = 0, σ0 = 1, µ1 = 2 ve σ1 ∈ {2/3, 1, 1.5, 2, 3}; \\
+• Gamma,  α0 = 2, β0 = 1, α1 ∈ {6, 9, 12} and β1 ∈ {1, 3} ; \\
+• Binomial, p0 = 0.25 ve p1 ∈ {0.3, 0.4, 0.5} ; \\
+• Geometrik,  p0 = 0.2 ve p1 ∈ {0.1, 0.02} ; belirtilen değerler ile dağılımlar elde edilmiştir\\
+\end{frame}
+
+\section{Sonuç ve Tartışma}
+\begin{frame}{Sonuç ve Tartışma}
+AUC, spAUC ve φ (Matthews Korelasyon Katsayısı-Phi) arasında genellikle güçlü bir korelasyon vardır ve benzer doğruluk ölçütlerini değerlendirebilirler. Ancak, AUC küçük örneklemelerde ve düşük doğruluk durumlarında daha az değişkenlik gösterir. spAUC, φ phi değeriyle belirlenen duyarlılık veya özgüllük aralığında daha az değişkenlik gösterir, ancak daha küçük bir aralıkta değerlendirme yapar. Bazı durumlarda, spAUC özgüllük aralığında daha iyi sonuçlar sağlayabilirken, diğer durumlarda tersi olabilir. phi (Matthews Korelasyon Katsayısı) indeksi, diğer ölçütlerden daha yüksek bir sıralama korelasyonuna sahiptir ve optimal kesim noktasının seçiminde kullanılabilir ve kullanılması tavsiye edilebilir. YI, DI ve CP tarafından belirlenen kesim noktaları farklı sonuçlar üretebilir, bu nedenle performans karşılaştırmaları yapılmalıdır. Teşhis doğruluğu ölçütlerinin değişkenliği yüksek olduğundan, güvenilir tahminler elde etmek için yeni tahmin teknikleri araştırılmalıdır, örneğin bootstrap veya yeniden örnekleme teknikleri kullanılabilir.
+\end{frame}
+
+\section{Sonuç ve Tartışma}
+\begin{frame}{Sonuç ve Tartışma}
+Kantitatif(nicel) değişken Yi'nin değerine dayanarak ikili bir sınıflandırma yapmak için doğru metodolijinin test edilmesi, birçok yanlış negatif veya yanlış pozitif sonuçlar nedeniyle hatalı sınıflandırmaya yol açılmasının önüne geçebilir.phi-φ (Matthews Korelasyon Katsayısı) indeksi kullanılması önerilebilir. Çalışmalarda yapılan simülasyon çalışmaları ile faydalıdır. Çalışma bu açılardan önemlidir
+
+\end{frame}
+
+\section{Kaynaklar}
+\begin{frame}{Kaynaklar}
+\begin{thebibliography}{9}
+\bibitem{nano3}
+    Santos, R.; Martins, J.P.; Felgueiras, M. and Ferreira, L. (2017).
+    \emph{Binary classification based on a quantitative variable – an accuracy comparison
+    by simulation.}
+    In “Proceedings of 17th International Conference Computational
+    and Mathematical Methods in Science and Engineering”
+    (J. Vigo-Aguiar, Eds.),
+1883–1886
+\bibitem{nano2}
+  Santos, R.; Martins, J.P.; Felgueiras, M. and Ferreira, L.,(2018).
+  \emph{Medidas de fiabilidade de classifica¸c˜ao bin´aria com base numa vari´avel quantitativa –
+  uma compara¸c˜ao via simula¸c˜ao.}
+  In “Livro de Atas do III Encontro Luso-Galaico
+  de Biometria",
+  (M. Monteiro, A. Freitas, L. Teixeira and M. Costa, Eds.),
+  Sociedade Portuguesa de Estatistica, 86–89.
+
+\end{thebibliography}
+\end{frame}
+
+\section*{Acknowledgement}  
+\begin{frame}
+
+\begin{center}
+\textcolor{myNewColorA}{\Large{{Teşekkürler!}}}
+\begin{figure}
+  \includegraphics[width=0.08\textwidth]{hü_logo.png}
+  \label{fig:resim}
+\end{figure}
+
+
+\end{center}
+\
+
+\end{frame}
+
+\end{document}
